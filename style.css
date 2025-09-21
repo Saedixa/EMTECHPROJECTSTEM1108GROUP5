@@ -23,8 +23,8 @@
 .navbar nav a {
   margin-left: 25px;
   text-decoration: none;
-  font-weight: 600;
-  color: #333;
+  font-weight: 300;
+  color: #ffffff;
   transition: color 0.3s ease;
 }
 
