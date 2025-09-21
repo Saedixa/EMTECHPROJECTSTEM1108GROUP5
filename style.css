@@ -1,6 +1,35 @@
 .montserrat-<uniquifier> {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: <300>;
   font-style: normal;
 }
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #ffffff; /* or any color you like */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo img {
+  height: 23px; /* adjust depending on your logo */
+}
+
+/* Navigation links */
+.navbar nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.navbar nav a:hover {
+  color: #0077ff;
+}
+
