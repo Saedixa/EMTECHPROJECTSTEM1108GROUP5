@@ -33,14 +33,20 @@ nav img{
 }
 .navbar{
   flex: none;
+.navbar ul {
+  display: flex;          /* make the list horizontal */
+  gap: 30px;              /* space between each link */
+  list-style: none;       /* remove bullets */
+  margin: 0;              /* reset default margin */
+  padding: 0;             /* reset default padding */
 }
-.navbar ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 12px;
+
+.navbar ul li {
+  padding: 0;             /* no extra padding */
   position: relative;
 }
-.navbar ul li a{
+
+.navbar ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 13px;
