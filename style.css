@@ -18,7 +18,7 @@
 }
 nav {
   display: flex;
-  padding: 20px 7%;
+  padding: 20px 50px;
   justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.6); /* transparent black bar */
@@ -32,9 +32,7 @@ nav img{
   width: 75px;
 }
 .navbar{
-  flex: 1;
-  text-align: right;
-  padding-right: 30px;
+  flex: none;
 }
 .navbar ul li{
   list-style: none;
